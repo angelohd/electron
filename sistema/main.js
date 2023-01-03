@@ -11,6 +11,7 @@ function createWindow () {
       preload: path.join(__dirname, 'preload.js')
     }
   })
+  mainWindow.maximize(); // maximizar a tela
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
